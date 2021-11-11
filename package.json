@@ -1,0 +1,36 @@
+{
+  "name": "SaudiEcommApi",
+  "version": "1.0.0",
+  "description": "This example is so cool.",
+  "main": "index.js",
+  "keywords": [
+    "Node",
+    "Heroku",
+    "Amazon",
+    "AWS",
+    "puppeteer"
+  ],
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "author": "Hamid Nawaz",
+  "license": "Saudi Ecomm",
+  "engines": {
+    "node": "15.11.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "htmlparser2": "^6.1.0",
+    "nodemon": "^2.0.9",
+    "puppeteer": "^2.1.1",
+    "puppeteer-extra": "^2.1.6",
+    "puppeteer-extra-plugin-stealth": "^2.4.14",
+    "puppeteer-extra-plugin-user-data-dir": "^2.2.12",
+    "querystring": "^0.2.0",
+    "request": "^2.88.2",
+    "url": "^0.11.0"
+  }
+}
